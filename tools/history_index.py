@@ -498,7 +498,7 @@ td.ok{color:var(--ok)}td.warn{color:var(--warn)}td.bad{color:var(--fail);font-we
 .site-count{font-weight:500;color:var(--ink-2);font-size:12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 figure.card{margin:0;background:var(--bg-raise);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;position:relative}
-figure.card.is-home{border-color:var(--ok);box-shadow:0 0 0 1px color-mix(in srgb, var(--ok) 35%, transparent)}
+figure.card.is-home{border-color:var(--ok);box-shadow:0 0 0 1px color-mix(in srgb, var(--ok) 35%%, transparent)}
 .homebadge{position:absolute;z-index:2;top:8px;left:8px;background:var(--ok);color:#0b0b0b;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:999px}
 .shot{aspect-ratio:1200/630;background:#141414;display:flex;align-items:center;justify-content:center;position:relative}
 .shot img{width:100%%;height:100%%;object-fit:contain;background:#141414}
